@@ -5,7 +5,7 @@ const rowData = [
 
 // 01 Ain
         { departement: "01 (Ain)",
-			partenaire: "ALMA",]]]
+			partenaire: "ALMA",
 			telephone: "0123456789",
 			email: "lorem@ipsum.dolor",
 			horaires:
