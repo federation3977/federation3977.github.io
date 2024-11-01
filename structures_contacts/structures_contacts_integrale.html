@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Structures et contacts</title>
+    <link rel="stylesheet" href="https://unpkg.com/ag-grid-community/styles/ag-grid.css">
+    <link rel="stylesheet" href="https://unpkg.com/ag-grid-community/styles/ag-theme-alpine.css">
+    <style>
+        #grillepartenaires {
+            height: 800px;
+            width: 100%;
+            overflow: hidden;
+        }
+		
+		#toptext {
+		place-items: center;
+		}
+    </style>
+</head>
+<body>
+
+<!-- Texte en haut de page -->
+
+<div id="toptext">
+<h1>Liste des partenaires du 3977</h1>
+<h2>(version intégrale)</h2>
+<h3><a href="structures_contacts.html">Accéder à la version lite</a></h3>
+</div>
+
+<!-- Code pour générer la grille et ses données -->
+
+<div id="grillepartenaires" class="ag-theme-alpine"></div>
+
+<script src="https://unpkg.com/ag-grid-community/dist/ag-grid-community.min.js"></script>
+<script src="donnees.js"></script>
+<script src="proprietees.js"></script>
+<script>
+const grillepartenairesElement = document.querySelector('#grillepartenaires');
+new agGrid.Grid(grillepartenairesElement, IntegralegridOptions);
+</script>
+
+</body>
+</html>
