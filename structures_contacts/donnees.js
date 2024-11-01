@@ -6,7 +6,7 @@ const rowData = [
 // 01 Ain
         { departement: "01 (Ain)",
 			partenaire: "ALMA",
-			telephone: "0123456789",
+			telephone: "0123456789",]]]
 			email: "lorem@ipsum.dolor",
 			horaires:
 			'Lundi 14h-18h<br>Mardi 14h-18h<br>Mercredi 14h-18h<br>Jeudi 14h-18h<br>Vendredi 14h-18h<br>Samedi 14h-18h<br>Dimanche 14h-18h',
