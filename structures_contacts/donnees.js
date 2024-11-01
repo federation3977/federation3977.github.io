@@ -132,5 +132,3 @@ const rowData = [
 			horaires:
 			'Lundi 14h-18h<br>Mardi 14h-18h<br>Mercredi 14h-18h<br>Jeudi 14h-18h<br>Vendredi 14h-18h<br>Samedi 14h-18h<br>Dimanche 14h-18h',
 			remarques: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin leo tortor, aliquet ut lacus vestibulum, elementum tempor nunc." },
-
-			];
